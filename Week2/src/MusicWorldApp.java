@@ -13,8 +13,9 @@ public class MusicWorldApp {
 		float subtotal = price*quantity;
 		float tax = 6.25f;
 		float total = subtotal+(subtotal*tax)/100;
-		JOptionPane.showMessageDialog(null,"Summary of the transaction:\n"+"\nCD ID:"+id+"\nCD Title:"+title+"\nCD Unit Price:"+price+"\nCD Quantity:"+quantity+"\n\nSubtotal: $"
-		                              +subtotal+"\nTax rate:"+tax+"%"+"\nTotal: $"+total+"\n\nEnd of Program");
+		JOptionPane.showMessageDialog(null,"Summary of the transaction:\n"+"\nCD ID:"+id+"\nCD Title:"+title+
+				"\nCD Unit Price:"+price+"\nCD Quantity:"+quantity+"\n\nSubtotal: $"
+		              +subtotal+"\nTax rate:"+tax+"%"+"\nTotal: $"+total+"\n\nEnd of Program");
 
 	}
 
