@@ -16,22 +16,22 @@ public class IncomeTaxCalculator {
 			if(taxableIncome<=20000)
 			{
 				double taxPayable =0.00;
-				System.out.println("The income tax payable is: $"+frm.format(taxPayable));
+				System.out.print("The income tax payable is: $"+frm.format(taxPayable));
 			}
 			else if(taxableIncome<=40000)
 			{
 				double taxPayable = (taxableIncome-20000)*TAX_RATE_ABOVE_20K;
-				System.out.println("The income tax payable is: $"+frm.format(taxPayable));
+				System.out.print("The income tax payable is: $"+frm.format(taxPayable));
 			}
 			else if(taxableIncome<=60000)
 			{
 				double taxPayable = (taxableIncome-30000)*TAX_RATE_ABOVE_40K;
-				System.out.println("The income tax payable is: $"+frm.format(taxPayable));
+				System.out.print("The income tax payable is: $"+frm.format(taxPayable));
 			}
 			else
 			{
 				double taxPayable = (taxableIncome-60000)*TAX_RATE_ABOVE_60K;
-				System.out.println("The income tax payable is: $"+frm.format(taxPayable));
+				System.out.print("The income tax payable is: $"+frm.format(taxPayable));
 			}
 		}
 		
