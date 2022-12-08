@@ -22,6 +22,7 @@ public class Lab402 {
 			}
 			
 		}
+		System.out.println();
 		System.out.println(sentence.substring(space,i));
 		
 	}
