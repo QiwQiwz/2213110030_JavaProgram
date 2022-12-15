@@ -7,10 +7,8 @@ public class Lab504 {
 		Scanner scan =new Scanner(System.in);
 		System.out.print("Please enter your name, separated by a space."+"\n:");
 		fullname = scan.nextLine();
-		String firstname = fullname.substring(0,7);
+		String firstname = fullname.substring(0,fullname.indexOf(' '));
 		System.out.println(abbviatName(fullname)+firstname);
-		
-
 	}
 	
 	public static String abbviatName(String fullname)
