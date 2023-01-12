@@ -1,5 +1,5 @@
-Date : 22-Dec-2022
+Date : 12-Jan-2022
 StudentID:2213110030
 Motonori Kono
 AKA : Qiw
-ClassDetail: Class and Object, Array of Object
+ClassDetail: GUI
