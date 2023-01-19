@@ -109,7 +109,7 @@ import javax.swing.JCheckBox;public class CalculateTwoNumber extends JFrame {
 		lblShow.setBounds(51, 248, 141, 18);
 		contentPane.add(lblShow);
 		
-		final JCheckBox chkDialogBox = new JCheckBox("Show Result at DialogBlox");
+		final JCheckBox chkDialogBox = new JCheckBox("Show Result at DialogBox");
 		chkDialogBox.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		chkDialogBox.setBounds(269, 248, 217, 23);
 		contentPane.add(chkDialogBox);
@@ -123,7 +123,7 @@ import javax.swing.JCheckBox;public class CalculateTwoNumber extends JFrame {
 		btnOk.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				double num1,num2,sum=0;
-				String operator;
+				String operator; 
 				//JButton
 				if(e.getSource()==btnOk) {
 					num1 = Double.parseDouble(Text1.getText());
